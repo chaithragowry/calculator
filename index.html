@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcu.css">
+    <script src="calcu.js"></script>
+</head>
+<body>
+    
+    <div class="row">Calculator</div>
+        <div class="box">
+            <div class="display">
+                <input type="text" id="d" >
+            </div>
+        <div class="keys">
+           <p>
+            <input type="button" class="button-pink" value="&#9003" id="b1" onclick="removeLastItem()">
+            <input type="button" class="button-pink" value="/" id="b11" onclick="displayNum('/')"></p>
+            <p><input type="button" class="button-black" value="7" id="b2" onclick="displayNum(7)">
+            <input type="button" class="button-black" value="8" onclick="displayNum(8)">
+            <input type="button" class="button-black" value="9" onclick="displayNum(9)">
+            <input type="button" class="button-pink" value="+" onclick="displayNum('+')">
+        </p>
+        <p><input type="button" class="button-black" value="4" id="b3" onclick="displayNum(4)">
+            <input type="button" class="button-black" value="5" onclick="displayNum(5)">
+            <input type="button" class="button-black" value="6" onclick="displayNum(6)">
+            <input type="button" class="button-pink" value="-" onclick="displayNum('-')"></p>
+
+        <p><input type="button" class="button-black" value="1" id="b4" onclick="displayNum(1)">
+            <input type="button" class="button-black" value="2" onclick="displayNum(2)">
+            <input type="button" class="button-black" value="3" onclick="displayNum(3)">
+            <input type="button" class="button-pink" value="*" onclick="displayNum('*')"></p>
+
+        <p><input type="button" class="button-black" value="0" id="b5" onclick="displayNum(0)">
+            <input type="button" class="button-black" value="." onclick="displayNum('.')">
+            <input type="button" class="button-black" value="AC" onclick="clearBox()">
+            <input type="button" class="button-orange" value="=" onclick=evaluateExpression()>
+        </p>    
+        </div>
+    </div>
+    
+</body>
+</html>

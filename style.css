@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(105, 103, 103);
+}
+.row{
+    color:#ff4561;
+    font-size:26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:30px;
+    margin-left: 470px;
+    
+}
+
+.box{
+height:360px;
+width:275px;
+position:relative;
+top:50px;
+left:40%;
+background-color: black;
+border-radius: 10px;
+}
+.display{
+    background-color: rgb(96, 167, 87);
+    width:220px;
+    height:40px;
+    left:25px;
+    top:20px;
+    position: relative;
+}
+.display input{
+    position:relative;
+    left:2px;
+    top:2px;
+    height: 35px;
+    color:black;
+    width:210px;
+    background-color:#bccd95;
+    font-size: 22px;
+    text-align: right;
+}
+.keys{
+    position: relative;
+    top:15px;
+}
+
+.button-pink{
+    font-weight: bold;
+    color:black;
+    background-color: #ff4561;
+    border-bottom: rgb(206, 204, 204) 2px solid;
+    width:50px;
+    height:40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-orange{
+color:black;
+background-color: #FF9933;
+border-bottom: rgb(219, 218, 218) 2px solid;
+width:50px;
+height:40px;
+font-weight: bold;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+}
+.button-black{
+    color:rgb(248, 247, 247);
+    background-color: #303030;
+    border-bottom: rgb(204, 201, 201) 2px solid;
+    width:50px;
+    height:40px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#b1{
+    margin-left: 137px;
+}
+#b2{
+    margin-left: 30px;
+}
+#b3{
+    margin-left: 30px;
+}
+#b4{
+    margin-left: 30px;
+}
+#b5{
+    margin-left: 30px;
+}
